@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-  vacant = 
+  vacant = nil
   if board[index] == " " || "" 
     return false
   else
