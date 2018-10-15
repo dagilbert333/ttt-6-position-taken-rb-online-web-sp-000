@@ -4,6 +4,7 @@ def position_taken?(board, index)
   if board[index] == " " || "" || nil
     vacant = false
   else
-    return true
+    vacant = true
   end
+  vacant
 end
